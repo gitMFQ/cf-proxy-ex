@@ -1,0 +1,3 @@
+name = "proxy"  # Worker 服务名称
+workers_dev = true  # 启用 workers.dev 子域名
+main = "_worker.js"  # 关键！指定入口文件为 worker.js
